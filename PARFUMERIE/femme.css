@@ -1,0 +1,259 @@
+.sidebar{
+    margin:0;
+    padding: 20;
+    width: 200px;
+    background-color:rgba(32, 31, 31, 0.767);
+    position: fixed;
+    height: 900px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+}
+.sidebar a{
+    display: block;
+    color: rgb(58, 56, 56);
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar a.active{
+    color: rgb(243, 228, 228);
+}
+.sidebar a:hover:not(.active){
+    background-color: #555;
+    color: rgb(126, 94, 94);
+}
+div.content{
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+@media  screen and (max-width:700px) {
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a{float: left;}
+    div.content{margin-left: 0;}
+    
+}
+@media screen and (max-width: 400px){
+     .sidebar a{
+        text-align: center;
+        float: none;
+     }
+}
+h1{
+    text-align: center;
+
+}
+hr{
+    width: 100px;
+    
+}
+h4{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.404);
+}
+#bloc{
+    display: block;
+
+}
+.bloc1{
+    display: flex;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin: 100px;
+    left: 150px;
+    
+}
+.bloc2{
+    display: flex;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin: 100px;
+    left: 250px;
+}
+.bloc3{
+    display: flex;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    margin: 100px;
+    left: 150px;
+    
+}
+.Para1{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+
+}
+.Para1 button{
+    position: relative;
+    top: 40px;
+}
+.Para1 p{
+    position: relative;
+    top: 40px;
+}
+.Para2{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.Para2 button{
+    position: relative;
+    top: 40px;
+
+
+}
+.Para2 p{
+    position: relative;
+    top: 40px;
+    
+}
+.Para3{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.Para3 button{
+    position: relative;
+    
+}
+.Para3 p{
+    position: relative;
+    
+}
+.Para4{
+    border: 1px solid black;
+    position: relative;
+    margin-right: 100px;
+    border-radius: 10px;
+    right: 100px;
+}
+.Para4 button{
+    position: relative;
+
+}
+.Para4 p{
+    position: relative;
+    
+}
+.Para5{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+    position: relative;
+    right: 90px;
+}
+.Para5 button{
+    position: relative;
+    
+
+}
+.Para5 p{
+    position: relative;
+    
+}
+.Para6{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+    position: relative;
+    right: 90px;
+}.Para7{
+    border: 1px solid black;
+    margin-right: 100px; 
+    border-radius: 10px;
+}
+.Para8 button{
+    position: relative;
+    
+}
+.Para8 p{
+    position: relative;
+    
+}
+.Para8{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.Para9{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+    left: 50px;
+}
+.Para9 button{
+    position: relative;
+    top: 20px;
+    
+}
+.Para9 p{
+    position: relative;
+    top: 20px;
+}
+button{
+    background-color: rgba(243, 139, 208, 0.753);
+    border-radius: 10px;
+    height: 30px;
+}
+#bloc4{
+    display: flex;
+    position: relative;
+    top: 150px;
+    margin: 100px;
+    left: 50px;
+    margin-left: 200;
+}
+.Para10 h3{
+    position: relative;
+    bottom: 300px;
+    font-size: 50px;
+    color: rgb(160, 159, 160);
+}
+.Para11 h3{
+    position: relative;
+    bottom: 300px;
+    font-size: 50px;
+    color: rgb(231, 225, 229);
+}
+.Para12 h3{
+    position: relative;
+    bottom: 300px;
+    font-size: 50px;
+    color: rgb(66, 64, 66);
+
+}
+.Para10 {
+    position: relative;
+    right: 100px;
+    
+} 
+.Para11 {
+    position: relative;
+    right: 50px;
+    height: 300px;
+    
+} 
+.Para12 {
+    position: relative;
+    right: 25px;
+    
+} 
+#bloc5{
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+}
+.Para13 h5{
+    position: relative;
+    bottom: 500px;
+    font-size: 100px;
+    right:400px;
+    color: rgba(0, 0, 0, 0.534);
+    text-align: center;
+}

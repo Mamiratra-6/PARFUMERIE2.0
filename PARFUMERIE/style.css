@@ -1,0 +1,204 @@
+body{
+    background-image:url(PRDUIT.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head nav{
+    width: 100%;
+    background-color: rgba(253, 119, 197, 0)    
+}
+.head nav ul {
+    margin:0px;
+    padding: 0px;
+}
+.head nav li {
+    list-style-type: none;
+}
+.head nav ul li {
+    float: left;
+    position: relative;
+}
+.head nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.head .submenu{
+    display: none;
+}
+.head nav input[type=checkbox]{
+    display: none;
+}
+.head nav label {
+    display: none;
+}
+.head nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+.head nav ul li a{
+    padding: 20px 30px;
+    color: black;
+}
+.head nav ul li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.head nav li:hover .submenu{
+     display: inline-block;
+     position:absolute ;
+     top: 100%;
+     left: 0px;
+     padding: 0px;
+     z-index: 1000;
+} 
+.head .submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: black;
+    width: 278px;
+}
+.head .submenu li{
+    border-bottom: 1px solid black;
+    width: 150px;
+}
+.head .menu-PRODUITS:hover{
+    background-color: gainsboro;
+}
+.head .menu-SOINS:hover{
+    background-color: gainsboro;
+}
+.head .menu-OFFRES:hover{
+    background-color: gainsboro;
+}
+.head .menu-PROMOTIONS:hover{
+    background-color: gainsboro;
+    
+}
+.head .menu-TENDANCE:hover{
+    background-color: gainsboro;
+}
+
+.head .menu-PRODUITS .submenu{
+    background-color: rgb(236, 206, 211);
+}
+.head .menu-SOINS .submenu{
+    background-color: rgb(236, 206, 211);
+}
+.head .menu-OFFRES .submenu{
+    background-color: rgb(236, 206, 211);
+}
+.head .menu-PROMOTIONS .submenu{
+    background-color: rgb(236, 206, 211);
+}
+.head .menu-TENDANCE .submenu{
+    background-color: rgb(236, 206, 211);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.head .submenu li:hover a{
+    color:rgb(139, 122, 78);
+    font-weight: bold;
+}
+.head .menu-PRODUITS .submenu li:hover{
+    background-color:   rgb(206, 193, 196);
+}
+.head .menu-SOINS .submenu li:hover{
+    background-color:   rgb(206, 193, 196);
+}
+.head .menu-OFFRES .submenu li:hover{
+    background-color:  rgb(206, 193, 196); 
+}
+.head .menu-PROMOTIONS .submenu li:hover{
+    background-color: rgb(206, 193, 196);  
+    
+}
+.head .menu-TENDANCE .submenu li:hover{
+    background-color:  rgba(247, 244, 244, 0.568);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   height: auto;
+}
+  
+.header {
+   background-color: rgba(253, 247, 247, 0.966);
+   text-align: center;
+   padding: 20px;
+
+}
+  
+ .products, .promotions, .testimonials {
+   padding: 20px;
+   margin: 20px 0;
+}
+  
+ .products h2, .promotions h2, .testimonials h2 {
+   color: #333;
+   text-align: center;
+   margin-bottom: 20px;
+}
+  
+ .product-item {
+   text-align: center;
+   margin-bottom: 20px;
+}
+.product-item2{ 
+    left: 300px;
+}
+  
+ .product-item img {
+   width: 150px;
+   height: auto;
+}
+  
+ button {
+   padding: 10px 20px;
+   background-color: #d4a373;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+  
+button:hover {
+   background-color: #b08661;
+}
+  
+.promotions {
+   background-color: #e3f1f894;
+   text-align: center;
+}
+  
+.testimonials {
+   background-color: #f0e3f865;
+   text-align: center;
+   font-style: italic;
+}
+  
+.footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+}
+.Tittle-h2{
+    padding-top: 200px;
+    padding-left: 00px;
+    font-size: 60px;
+}
+.Tittle-h2{
+    padding: 100px 300px;
+}

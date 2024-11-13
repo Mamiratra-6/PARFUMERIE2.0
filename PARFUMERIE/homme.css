@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+
+}
+hr{
+    box-shadow: 2px 2px 2px;
+    
+}
+#bloc{
+    display: block;
+    border-left: 5px solid black ;
+    border-right: 5px solid black;
+}
+.bloc1{
+    display: flex;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin: 100px;
+    left:200px;
+    
+}
+.bloc2{
+    display: flex;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin: 100px;
+    left: 300px;
+}
+.bloc3{
+    display: flex;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    margin: 100px;
+    left:200px;
+}
+.Para1{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+
+}
+.Para2{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.Para3{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.Para4{
+    border: 1px solid black;
+    position: relative;
+    margin-right: 100px;
+    border-radius: 10px;
+    right: 100px;
+}
+.Para5{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+    position: relative;
+    right: 40px;
+}
+.Para5 P{
+    position: relative;
+    top: 70px;
+}
+.Para5 button{
+    position: relative;
+    top: 60px;
+}
+.Para6{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+    position: relative;
+    right: 20px;
+}
+.Para6 button{
+    position: relative;
+    top: 40px;
+}
+.Para6 p{
+    position: relative;
+    top: 50px;
+}
+.Para7{
+    border: 1px solid black;
+    margin-right: 100px; 
+    border-radius: 10px;
+
+}
+.Para8{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.Para9{
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+button{
+    background-color: rgba(243, 139, 208, 0.753);
+    border-radius: 10px;
+    height: 30px;
+}
