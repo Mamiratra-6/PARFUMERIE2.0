@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.offer-diva-1{
+    display: flex;
+    margin: 30px;
+}
+.offer-diva-1 img{
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.offer-diva-1 h3{
+    color: brown;
+    text-align: center;
+}
+.offer-diva-1 ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
+.offer-diva-2{
+    display: flex;
+    margin: 30px;
+}
+.offer-diva-2 h3{
+    color: brown;
+    text-align: center;
+}
+.offer-diva-2 ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
+.offer-diva-2 img{
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.offer-diva-3{
+    display: flex;
+    margin: 30px;
+}
+.offer-diva-3 img{
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.offer-diva-3 h3{
+    color: brown;
+    text-align: center;
+}
+.offer-diva-3 ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
+.offer-diva-4{
+    display: flex;
+    margin: 30px;
+}
+.offer-diva-4 img{
+    width: 320px;
+    height: 320px;
+    margin: 40px;
+}
+.offer-diva-4 h3{
+    color: brown;
+    text-align: center;
+}
+.offer-diva-4 ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
