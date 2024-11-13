@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: ghostwhite;
+}
+.first-offer{
+    display: flex;
+    margin: 30px;
+}
+.first-offer img{
+    width: 320px;
+    height: 320px;
+    margin: 50px;
+}
+.first-offer h3{
+    color: brown;
+    text-align: center;
+}
+.first-offer ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
+.second-offer{
+    display: flex;
+    margin: 30px;
+}
+.second-offer img{
+    width: 320px;
+    height: 320px;
+    margin: 50px;
+}
+.second-offer h3{
+    color: brown;
+    text-align: center;
+}
+.second-offer ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
+.third-offer{
+    display: flex;
+    margin: 30px;
+}
+.third-offer img{
+    width: 320px;
+    height: 320px;
+    margin: 50px;
+}
+.third-offer h3{
+    color: brown;
+    text-align: center;
+}
+.third-offer ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
+.fourthly-offer{
+    display: flex;
+    margin: 30px;
+}
+.fourthly-offer img{
+    width: 320px;
+    height: 320px;
+    margin: 50px;
+}
+.fourthly-offer h3{
+    color: brown;
+    text-align: center;
+}
+.fourthly-offer ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
+.fifthly-offer{
+    display: flex;
+    margin: 30px;
+}
+.fifthly-offer img{
+    width: 320px;
+    height: 320px;
+    margin: 50px;
+}
+.fifthly-offer h3{
+    color: brown;
+    text-align: center;
+}
+.fifthly-offer ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    text-align: justify;
+}
